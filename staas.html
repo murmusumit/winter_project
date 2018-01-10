@@ -1,0 +1,33 @@
+
+<html>
+<head>
+<title> staas </title>
+</head>
+<body bgcolor="DarkOrchid">
+<center>
+<h1>Storage as a service</h1><br><br>
+<h2>Please select the name and size of your storage</h2>
+<form action=/var/www//cgi-bin/staas.py method="POST">
+Choose storage type : 
+<select name='type'>
+	<option value='block'>Block Storage</option>
+	<option value='object'>Object Storage</option>
+</select><br><br>
+  
+Enter Name: <br>
+<input type="text" name="name">
+
+<br>
+
+Enter size in GB:<br>
+
+<input type="number" name="size"> <br><br>
+<input type="submit" value="submit">
+
+</form>
+</center>
+</body>
+
+</html>
+
+​
